@@ -35,6 +35,7 @@ public class Code03_Lab01 {
         int num2 = s.nextInt();
         double result2 = num2 * kg;
         System.out.printf("%d킬로그램 (kg)은 %.3f 파운드(lb)입니다.\n", num2, result1);
+         s.close();
 
     }
 }
