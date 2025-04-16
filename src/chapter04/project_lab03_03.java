@@ -43,7 +43,7 @@ public class project_lab03_03 {
                 case "D0":  score = 1.0; break; // D0 → 1.0 로 점수 환산
                 case "F":  score = 0.0; break; // F → 0 로 점수 환산
                 default:
-                    // 위에 해당하지 않는 등급이 들어온 경우 경고 메시지를 출력하고 반복 계속
+                    // 위에 해당하지 않는 등급이 들어온 경우 경고 메시지를 출력하고 계속 반복
                     System.out.println("잘못된 성적입니다. 다시 입력해주세요.");
                     continue;
             }
