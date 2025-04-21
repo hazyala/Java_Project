@@ -18,5 +18,10 @@ public class Code4_12 {
        System.out.println(str2);
        String str3 = str2.trim();
        System.out.println(str3);
+
+       String str5 = str2.replaceAll(" ", ""); //empty string; ""
+       System.out.println(str5);
+       String str6 = str2.replaceFirst(" ", "");
+       System.out.println(str6);
     }
 }
