@@ -25,6 +25,6 @@ public class LAB_chapter05_1 {
         System.out.println("귀하의 나이는 " + age + "세이므로 " + resultStr);
         System.out.println("협조해 주셔서 정말 감사합니다");
 
-        s1.nextLine();
+        s1.close();
     }
 }
