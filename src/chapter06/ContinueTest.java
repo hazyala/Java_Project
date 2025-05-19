@@ -4,7 +4,7 @@ public class ContinueTest {
     public static void main(String[] args) {
         int sum = 0 ;
         for (int i = 1 ; i <= 100 ; i++) {
-            //5릐 배수를 제ㄹ
+            //5의 배수
             if (i % 5 == 0)
                 continue;
             sum += i;

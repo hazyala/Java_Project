@@ -19,7 +19,7 @@ public class DiceGame {
                 break;
         }
 
-        //출력 : 3개의 주사위의 같은 숫자, 같아지는 반복 횟수
+        //출력 : 3개의 주사위의 같은 숫자, 같아지는 반복 횟수.
         System.out.printf("3개의 주사위는 모두 숫자 %d\n");
         System.out.printf("3개의 주사위에 같은 숫자가 될 때까지 %d번 던졌습니다 \n", count);
     }
